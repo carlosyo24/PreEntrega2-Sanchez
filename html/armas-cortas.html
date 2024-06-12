@@ -1,112 +1,246 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!--link bootstrap-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link rel="stylesheet" href="../css/style.css">
-    <title>Tactical Gear INC.</title>
+
+  <!--link css-->
+  <link rel="stylesheet" href="../css/style.css">
+
+
+  <title>Tactical Gear INC.</title>
 
 </head>
+
+
 <body>
-                   
-        <header id="cabecero">
-        
-            <div class="redes"> 
-                <section>
-                    <li><a href="https://web.whatsapp.com/"><img src="../imagenes/whatsapp.jpg" alt="whatsapp"></a>  </li>
-                     <li><a href="https://www.instagram.com"><img src="../imagenes/instagram.jpg" alt="instagram"></a> </li>
-                     <li><a href="https://www.facebook.com"><img src="../imagenes/facebook.jpg" alt="facebook"></a> </li>
-                     <li><a href="../html/ingresar.html" class="ingresar">Ingresar </a></li>
-                </section>   
-               
-             </div>     
-           
 
-            </div><h1><a href="../index.html"> Tactical Gear INC.</a></h1></div>  
+  <header id="cabecero">
 
-            <nav>
-                <ul>
-                    <li> <a href="../index.html"> Inicio </a></li>
-                        
-                    <li><a href="armas-largas.html"> Armas Largas</a></li>
-    
-                    <li><a href="armas-cortas.html">Armas cortas</a></li>
-    
-                    <li><a href="epp.html">EPP</a></li>
-    
-                    <li><a href="indumentaria.html">Indumentaria</a></li>
-    
-                    <li><a href="ingresar.html">Ingresar</a></li>
-    
-                    <li><a href="registrarse.html">Registrarse</a></li>
-    
-                    <li> <a href="terminos-condiciones.html">Terminos y condiciones</a> </li>
-                    
-               </ul>
-           </nav>
+    <div class="redes">
+      <section>
+        <li><a href="https://web.whatsapp.com/"><img src="../imagenes/whatsapp.jpg" alt="whatsapp"></a> </li>
+        <li><a href="https://www.instagram.com"><img src="../imagenes/instagram.jpg" alt="instagram"></a> </li>
+        <li><a href="https://www.facebook.com"><img src="../imagenes/facebook.jpg" alt="facebook"></a> </li>
+        <li><a href="../html/ingresar.html" class="ingresar">Ingresar </a></li>
+      </section>
 
-        </header>
-    <main>
-        <h2 class="titulo-h2">Para defensa personal</h2>
+    </div>
 
-            <div class="imagen-size">
-                <img src="../imagenes/armas-cortas/arma-corta.png" alt="arma">
-                <img src="../imagenes/armas-cortas/caja.jpeg" alt="caja">
-                <img src="../imagenes/armas-cortas/estuche.jpeg" alt="estuche">
-            </div>
-         
-        <h2 class="titulo-h2">Accesorios</h2>
 
-        <section class="imagen-size">
-            <img src="../imagenes/armas-cortas/mira.jpeg" alt="mira">
-            <img src="../imagenes/armas-cortas/miras.jpg" alt="miras">
-            <img src="../imagenes/armas-cortas/partes.jpeg" alt="partes">
-        </section>
-        
-         
-    </main>
+    </div>
+    <h1><a href="../index.html"> Tactical Gear INC.</a></h1>
+    </div>
 
-    <footer>
+    <!-- ----------------menú navegable con Bootstrap----------------------->
 
-        <div class="card-group">
-            <div class="card">
-                <img src="../imagenes/ayuda.jpg" class="card-img-top w-25" alt="ayuda">
-                <div class="card-body">
-                    <h5 class="card-title">AYUDA</h5>
-                    <p class="card-text"><a href="html/terminos-condiciones.html"> Terminos y condiciones</a></p>
-                    <p class="card-text"><small class="text-body-secondary"><a href="html/comprar.html">Como
-                                comprar</a></small></p>
-                </div>
-            </div>
-            <div class="card">
-                <img src="../imagenes/registrarse.jpg" class="card-img-top w-25" alt="registrarse">
-                <div class="card-body">
-                    <h5 class="card-title">REGISTRARSE</h5>
-                    <p class="card-text"><a href="html/ingresar.html">Ingresar</a></p>
-                    <p class="card-text"><small class="text-body-secondary"><a href="html/registrarse.html">Registrarse</a></small></p>
-                </div>
-            </div>
-            <div class="card">
-                <img src="../imagenes/contactanos.png" class="card-img-top w-25" alt="contactanos">
-                <div class="card-body">
-                    <h5 class="card-title">CONTÁCTANOS</h5>
-                    <p class="card-text"><a href="https://web.whatsapp.com/"><img src="../imagenes/whatsapp.jpg"
-                                alt="whatsapp"></a></p>
-                    <p class="card-text"><small class="text-body-secondary"><a href="/https://www.instagram.com"><img
-                                    src="../imagenes/instagram.jpg" alt="instagram"></a></small></p>
-                    <p class="card-text"><small class="text-body-secondary"><a href="/https://www.facebook.com"><img
-                                    src="../imagenes/facebook.jpg" alt="facebook"></a></small></p>
-                </div>
-            </div>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="../index.html">Inicio</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false"> Armas
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="armas-cortas.html">cortas</a></li>
+                <li><a class="dropdown-item" href="armas-largas.html">largas</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="indumentaria.html">Indumentaria</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="epp.html">EPP</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="ingresar.html">Ingresar</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="registrarse.html">Registrarse</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="terminos-condiciones.html">Terminos y condiciones</a>
+            </li>
+          </ul>
         </div>
-     
-    </footer>
+      </div>
+    </nav>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+  </header>
+
+
+  <main>
+
+    <!--carrucel SIG SAUER - Taurus -->
+
+    <div id="carouselExample" class="carousel slide">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="card-group">
+            <div class="card">
+              <img src="https://www.triestina.com.ar/wp-content/uploads/2024/06/p320-45-bss.jpg"
+                class="card-img-top w-50" alt="PIST SIG SAUER P320 BSS CAL 45 PAV/99MM/9+1/CA">
+              <div class="card-body">
+                <p class="card-text">PIST SIG SAUER P320 BSS CAL 45 PAV/99MM/9+1/CA</p>
+              </div>
+            </div>
+            <div class="card">
+              <img src="https://www.triestina.com.ar/wp-content/uploads/2024/06/p365-axg-legion_left.jpg"
+                class="card-img-top w-50" alt="PIST SIG SAUER P365 AXGCA LEGION CAL 9MM PAV/17T/CA/EST">
+              <div class="card-body">
+                <p class="card-text">PIST SIG SAUER P365 AXGCA LEGION CAL 9MM PAV/17T/CA/EST</p>
+              </div>
+            </div>
+            <div class="card">
+              <img src="https://www.triestina.com.ar/wp-content/uploads/2024/06/320axgf-9-legion.jpg"
+                class="card-img-top w-50" alt="PIST SIG SAUER P320 AXGF LEGION CAL 9 MM 21 TIROS PAVON">
+              <div class="card-body">
+                <p class="card-text">PIST SIG SAUER P320 AXGF LEGION CAL 9 MM 21 TIROS PAVON</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="card-group">
+            <div class="card">
+              <img src="https://www.triestina.com.ar/wp-content/uploads/2018/10/11537_01_lg_1_1.jpg"
+                class="card-img-top w-50" alt="PISTOLA TAURUS 40SW MTH40 PAV/15T">
+              <div class="card-body">
+                <p class="card-text">PISTOLA TAURUS 40SW MTH40 PAV/15T</p>
+              </div>
+            </div>
+            <div class="card">
+              <img src="https://www.triestina.com.ar/wp-content/uploads/2023/11/Taurus-PT1911-1.png"
+                class="card-img-top w-50" alt="PISTOLA TAURUS 45ACP PT1911 PAV/8T/CA">
+              <div class="card-body">
+                <p class="card-text">PISTOLA TAURUS 45ACP PT1911 PAV/8T/CA</p>
+              </div>
+            </div>
+            <div class="card">
+              <img
+                src="https://www.triestina.com.ar/wp-content/uploads/2023/03/WhatsApp-Image-2023-03-31-at-11.27.34-1.jpeg"
+                class="card-img-top w-50" alt="Pistola Taurus G3 Dos Tonos cal. 9mm">
+              <div class="card-body">
+                <p class="card-text">Pistola Taurus G3 Dos Tonos cal. 9mm</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+
+    <!--carrucel Bersa - Glock -->
+
+    <div id="carouselExample-corta-2" class="carousel slide">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="card-group">
+            <div class="card">
+              <img src="https://www.triestina.com.ar/wp-content/uploads/2024/05/Glock-19-Gen5-MOS-1.jpg"
+                class="card-img-top w-50" alt="Pistola Glock 19 Gen 5 MOS cal. 9mm">
+              <div class="card-body">
+                <p class="card-text">Pistola Glock 19 Gen 5 MOS cal. 9mm</p>
+              </div>
+            </div>
+            <div class="card">
+              <img src="https://www.triestina.com.ar/wp-content/uploads/2024/06/Glock-17-Gen5-MOS.jpg"
+                class="card-img-top w-50" alt="Pistola Glock 17 Gen5">
+              <div class="card-body">
+                <p class="card-text">Pistola Glock 17 Gen5 MOS cal. 9mm</p>
+              </div>
+            </div>
+            <div class="card">
+              <img src="https://www.triestina.com.ar/wp-content/uploads/2024/05/Glock-45-Gen-5-1.jpg"
+                class="card-img-top w-50" alt="PISTOLA GLOCK 45 MOS CAL. 9 MM">
+              <div class="card-body">
+                <p class="card-text">PISTOLA GLOCK 45 MOS CAL. 9 MM</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="card-group">
+            <div class="card">
+              <img src="https://www.triestina.com.ar/wp-content/uploads/2024/04/20240419_121131-1600x1600.jpg"
+                class="card-img-top w-50" alt="Pistola Bersa BP9CC Rose Gold">
+              <div class="card-body">
+                <p class="card-text">Pistola Bersa BP9CC Rose Gold</p>
+              </div>
+            </div>
+            <div class="card">
+              <img src="https://www.triestina.com.ar/wp-content/uploads/2024/04/20240419_120510-1600x1600.jpg"
+                class="card-img-top w-50" alt="PISTOLA BERSA THUNDER 380CC FDE">
+              <div class="card-body">
+                <p class="card-text">PISTOLA BERSA THUNDER 380CC FDE</p>
+              </div>
+            </div>
+            <div class="card">
+              <img src="https://www.triestina.com.ar/wp-content/uploads/2024/02/TPR9X-OD.jpg" class="card-img-top w-50"
+                alt="PISTOLA BERSA TPR9X CERAKOTE OD C/ROSCA">
+              <div class="card-body">
+                <p class="card-text">PISTOLA BERSA TPR9X CERAKOTE OD C/ROSCA</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample-corta-2"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExample-corta-2"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+  </main>
+
+  <footer>
+
+    <div class="info-contacto">
+      <p>Encontranos en la calle "Pacheco 123"</p>
+      <p>Texas Yankis-UUEE</p>
+      <p>Teléfono: 353-8475-74</p>
+    </div>
+
+    <div class="redes-sociales">
+      <a href="https://www.facebook.com"><img src="../imagenes/facebook.jpg" alt="Facebook"></a>
+      <a href="https://web.whatsapp.com/"><img src="../imagenes/whatsapp.jpg" alt="Whatsapp"></a>
+      <a href="https://www.instagram.com/"><img src="../imagenes/instagram.jpg" alt="Instagram"></a>
+    </div>
+
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
     crossorigin="anonymous"></script>
 
 </body>
+
 </html>

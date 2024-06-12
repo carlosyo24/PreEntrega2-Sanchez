@@ -1,0 +1,48 @@
+#cabecero {
+    background-color: #333; 
+    color: #fff; 
+    padding: 20px; 
+  }
+  
+  .redes {
+    display: flex;
+    justify-content:end; 
+  }
+  
+  .redes section {
+    display: flex;
+    align-items:center; 
+  }
+  
+  .redes section li {
+    list-style: none; 
+  }
+  
+  .redes section li a {
+    display: inline-block;
+    margin-right: 10px; 
+    text-decoration: none; 
+    color: inherit; 
+  }
+  
+  .redes section li a:hover {
+    opacity: 0.8; 
+  }
+  
+  .redes section li a img {
+    width: 30px; 
+    height: auto; 
+    border-radius: 50%; 
+  }
+  
+  .ingresar {
+    color: #fff; 
+    text-decoration: none; 
+    padding: 5px 10px; 
+    background-color: #4CAF50; 
+    border-radius: 5px; 
+  }
+
+  .ingresar:hover {
+    background-color: #45a049; 
+  }

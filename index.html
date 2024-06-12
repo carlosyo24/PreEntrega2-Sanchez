@@ -2,120 +2,122 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Tactical Gear INC.</title>
+            <!-- link bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+            <!-- link css -->            
+  <link rel="stylesheet" href="css/style.css">
+
+  <title>Tactical Gear INC.</title>
 
 
 </head>
 
 <body>
-    <header id="cabecero">
 
-        <div class="redes">
-            <section>
-                <li><a href="https://web.whatsapp.com/"><img src="imagenes/whatsapp.jpg" alt="whatsapp"></a> </li>
-                <li><a href="https://www.instagram.com"><img src="imagenes/instagram.jpg" alt="instagram"></a> </li>
-                <li><a href="https://www.facebook.com"><img src="imagenes/facebook.jpg" alt="facebook"></a> </li>
-                <li><a href="html/ingresar.html" class="ingresar">Ingresar </a></li>
-            </section>
+  <header id="cabecero">
+    <div class="redes">
+      <section>
+        <li><a href="https://web.whatsapp.com/"><img src="imagenes/whatsapp.jpg" alt="whatsapp"></a> </li>
+        <li><a href="https://www.instagram.com"><img src="imagenes/instagram.jpg" alt="instagram"></a> </li>
+        <li><a href="https://www.facebook.com"><img src="imagenes/facebook.jpg" alt="facebook"></a> </li>
+        <li><a href="html/ingresar.html" class="ingresar">Ingresar </a></li>
+      </section>
+    </div>
 
+    <h1><a href="index.html"> Tactical Gear INC.</a></h1>
+    
+
+    <!-- ----------------menú navegable con Bootstrap----------------------->
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">Inicio</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Armas
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="html/armas-cortas.html">cortas</a></li>
+                <li><a class="dropdown-item" href="html/armas-largas.html">largas</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="html/indumentaria.html">Indumentaria</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="html/epp.html">EPP</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="html/ingresar.html">Ingresar</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="html/registrarse.html">Registrarse</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="html/terminos-condiciones.html">Terminos y condiciones</a>
+            </li>
+          </ul>
         </div>
-        <h1><a href="index.html"> Tactical Gear INC.</a></h1>
-        </div>
+      </div>
+    </nav>
 
-        <nav>
-            <ul>
-                <li> <a href="index.html"> Inicio </a> </li>
+      </header>
 
-                <li> <a href="html/armas-largas.html"> Armas Largas</a> </li>
+  <main>
+    <div class="center">
+      <img src="imagenes/equipando-campeones.jpeg" alt="equipamiento profesional">
 
-                <li> <a href="html/armas-cortas.html"> Armas cortas</a> </li>
+      <img src="imagenes/importador.jpeg" alt="importar">
+    </div>
 
-                <li> <a href="html/epp.html"> EPP</a> </li>
+    <section class="ofertas">
+      <h2>
+        3 cuotas sin intereses
+      </h2>
 
-                <li> <a href="html/indumentaria.html"> Indumentaria</a> </li>
+      <h2>
+        30% OFF contado/transferencia
+      </h2>
+    </section>
 
-                <li> <a href="html/ingresar.html"> Ingresar</a> </li>
-
-                <li> <a href="html/registrarse.html"> Registrarse</a> </li>
-
-                <li> <a href="html/terminos-condiciones.html"> Terminos y condiciones</a> </li>
-            </ul>
-        </nav>
-
-
-    </header>
-
-    <main>
-        <div class="center">
-            <img src="imagenes/equipando-campeones.jpeg" alt="equipamiento profesional">
-
-            <img src="imagenes/importador.jpeg" alt="importar">
-        </div>
-
-        <section class="ofertas">
-            <h2>
-                3 cuotas sin intereses
-            </h2>
-
-            <h2>
-                30% OFF contado/transferencia
-            </h2>
-        </section>
-
-    </main>
-
+  </main>
+      
     <footer>
 
-        <!--FOOTER BOOSTSTRAP-->
+      <div class="info-contacto">
+          <p>Encontranos en la calle "Pacheco 123"</p>
+          <p>Texas Yankis-UUEE</p>
+          <p>Teléfono: 353-8475-74</p>
+      </div>
+      <div class="redes-sociales">
+          <a href="https://www.facebook.com"><img src="imagenes/facebook.jpg" alt="Facebook"></a>
+          <a href="https://web.whatsapp.com/"><img src="imagenes/whatsapp.jpg" alt="Whatsapp"></a>
+          <a href="https://www.instagram.com/"><img src="imagenes/instagram.jpg" alt="Instagram"></a>
+      </div>
+      
+  </footer>
 
-        <div class="card-group">
-            <div class="card">
-                <img src="imagenes/ayuda.jpg" class="card-img-top w-25" alt="ayuda">
-                <div class="card-body">
-                    <h5 class="card-title">AYUDA</h5>
-                    <p class="card-text"><a href="html/terminos-condiciones.html"> Terminos y condiciones</a></p>
-                    <p class="card-text"><small class="text-body-secondary"><a href="html/comprar.html">Como
-                                comprar</a></small></p>
-                </div>
-            </div>
-            <div class="card">
-                <img src="imagenes/registrarse.jpg" class="card-img-top w-25" alt="registrarse">
-                <div class="card-body">
-                    <h5 class="card-title">REGISTRARSE</h5>
-                    <p class="card-text"><a href="html/ingresar.html">Ingresar</a></p>
-                    <p class="card-text"><small class="text-body-secondary"><a href="html/registrarse.html">Registrarse</a></small></p>
-                </div>
-            </div>
-            <div class="card">
-                <img src="imagenes/contactanos.png" class="card-img-top w-25" alt="contactanos">
-                <div class="card-body">
-                    <h5 class="card-title">CONTÁCTANOS</h5>
-                    <p class="card-text"><a href="https://web.whatsapp.com/"><img src="imagenes/whatsapp.jpg"
-                                alt="whatsapp"></a></p>
-                    <p class="card-text"><small class="text-body-secondary"><a href="https://www.instagram.com"><img
-                                    src="imagenes/instagram.jpg" alt="instagram"></a></small></p>
-                    <p class="card-text"><small class="text-body-secondary"><a href="https://www.facebook.com"><img
-                                    src="imagenes/facebook.jpg" alt="facebook"></a></small></p>
-                </div>
-            </div>
-        </div>
-
-    </footer>
-
-
-
-    <!-- comentario-->
-
+        <!--  script Bootstrap  -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-        crossorigin="anonymous"></script>
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
 
-</body>
+  </body>
+
 
 </html>

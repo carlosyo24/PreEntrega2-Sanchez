@@ -1,0 +1,45 @@
+
+@import "botones/boton";
+@import "componentes/cabecera";
+@import "componentes/titulo";
+@import "secciones/footer";
+
+
+// .titulo-h2 {
+//   font-size: 24px;
+//   color: #333;
+//   margin-top: 20px;
+// }
+
+.ofertas {
+  text-align: center;
+}
+ 
+
+  .imagen-size {
+    display: flex;
+    justify-content: space-around; 
+    margin-bottom: 40px; 
+  } 
+  
+  .imagen-size img {
+    width: auto; 
+    height: 20%; 
+  } 
+  
+  .terminos {
+    margin-top: 20px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 40px;
+  }
+  
+  
+  
+  
+  /*# sourceMappingURL=style.css.map */
+  
+   
+  
+   
+  
